@@ -1,0 +1,13 @@
+prefix=/Users/saebel/Desktop/machine-learning-projects/sample-project/env
+exec_prefix=/Users/saebel/Desktop/machine-learning-projects/sample-project/env
+libdir=/Users/saebel/Desktop/machine-learning-projects/sample-project/env/lib
+sharedlibdir=/Users/saebel/Desktop/machine-learning-projects/sample-project/env/lib
+includedir=/Users/saebel/Desktop/machine-learning-projects/sample-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
