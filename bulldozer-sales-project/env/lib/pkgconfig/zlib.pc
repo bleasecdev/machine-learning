@@ -1,0 +1,13 @@
+prefix=/Users/saebel/machine-learning/bulldozer-sales-project/env
+exec_prefix=/Users/saebel/machine-learning/bulldozer-sales-project/env
+libdir=/Users/saebel/machine-learning/bulldozer-sales-project/env/lib
+sharedlibdir=/Users/saebel/machine-learning/bulldozer-sales-project/env/lib
+includedir=/Users/saebel/machine-learning/bulldozer-sales-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
